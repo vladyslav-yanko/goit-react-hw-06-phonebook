@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px 15px 15px;
+}
+
+.labelTitle {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #080c08;
+}
+
+.input {
+  margin-top: 10px;
+  color: #030a05;
+  padding-left: 5px;
+}
+
+.button {
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 4px;
+  background-color: white;
+  color: #060c08;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #030704;
+  color: white;
+}
